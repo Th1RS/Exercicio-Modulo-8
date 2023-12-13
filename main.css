@@ -5,55 +5,81 @@
 }
 body{
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* background-color: black; */
+    padding: 100px;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    transform: scale(1);
+}
+body{
+    background-image: linear-gradient(rgba(4, 4, 116, 0.5), rgba(24, 24, 23, 0.5)), url("./Imagem/Wow\,\ muito\ lindo.jpeg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black; 
+    background-size: 100% 100%;
 }
 h1{
     margin: 20px;
 }
 th,
 td{
-    border:  black solid 2px; 
+    border-bottom:  #E7E7E7 solid 2px; 
     padding: 8px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
 .conteiner{
-    border: solid black 2px;
-    /* text-align: center; */
-    /* align-items: center; */
+    color: #fff;
+    padding: 20px;
+    border: solid #E7E7E7  2px;
+    backdrop-filter: blur(3px);
+    text-align: center;
     width: 100%;
-    margin: 0 auto;
-    /* justify-content: space-between; */
-    padding: 40px;    
-    /* background-color: #E7E7E7; */
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 5% auto;
+    /* height: 80%; */
+    /* display: ; */
+    align-items: center;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+#fechar{
+    cursor: pointer;
 }
 table{
-    width: 100%;
-    /* max-width: 950px; */
+    width: 82%;
 }
 form{
     padding: 10px;
-    padding-bottom: 20px;
     display: flex;
-    max-width: 840px;
     justify-content: space-between;
+    width: 82%;
+    /* flex-direction: column; */
 }
 input, 
 button{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
-    margin: 5px; 
+    font-size: 90%;
+    /* margin: auto;  */
     border-radius: 6px;
     padding: 8px;
     cursor: pointer;
+    /* width: 500px; */
+    width: 100%;
+    margin: 10px; 
 }
 button{
     background-color: blue;
     color: white;
     font-weight: bold;
+    font-size: 100%;
     border: none;
+    max-width: 15%;
 }

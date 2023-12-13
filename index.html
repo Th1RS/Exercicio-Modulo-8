@@ -11,9 +11,9 @@
     <div class="conteiner">
          <h1>Lista de contatos</h1>
         <form action="">
-            <input type="text" placeholder="Nome do contato">
-            <input type="tel" placeholder="Número de telefone">
-            <button>Salvar</button>
+            <input type="text" id="nome" placeholder="Nome do contato">
+            <input type="tel"  id="sobrenome" placeholder="Número de telefone">
+            <button type="submit"><span>Salvar</span></button>
         </form>
         <table cellspacing="0">
             <thead>
@@ -22,11 +22,11 @@
                     <th>Telefone</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="tbody">
                 <tr>
                     <td>--</td>
                     <td>--</td>
-                    <td ><span id="closed">x</span></td>
+                    <td id="fechar"><span id="closed">x</span></td>
                 </tr>
             </tbody>
         </table>
