@@ -50,17 +50,16 @@ td{
     /* flex-direction: column;
     flex-wrap: wrap; */
 }
-#fechar{
+#closed{
     cursor: pointer;
 }
 table{
-    width: 82%;
+    width: 100%;
 }
 form{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    width: 82%;
     /* flex-direction: column; */
 }
 input, 
